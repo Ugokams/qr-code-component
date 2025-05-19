@@ -1,0 +1,67 @@
+body{
+    align-items: center;
+    justify-items: center;
+    margin-top: 60px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+h3{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #1f1f1f;
+}
+p{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #7b7b7b;
+    line-height: 1.5;
+}
+.barcode_container {
+    border: 1px medium;
+    background-color: hsl(0, 0%, 100%);
+    justify-items: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 8px 20px rgba(128, 128, 128, 0.2);
+}
+
+.barcode img{
+    width: 205px;
+    height: 200px;
+    border-radius: 10px;
+    justify-items: center;
+    
+}
+.main_container{
+    border: 1px medium;
+    justify-items: center;
+    background-color: hsl(212, 45%, 89%);
+    padding: 15px 0px;
+    width: 70%;
+    box-shadow: 1px 12px 24px rgba(128, 128, 128, 0.2);
+}
+ /* === Media Query: Desktop (min-width: 1024px) === */
+ @media (min-width: 1024px) {
+    .barcode_container {
+      max-width: 375px;
+      padding: 2rem;
+    }
+  
+    h3 {
+      font-size: 1.25rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
