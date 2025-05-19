@@ -14,4 +14,4 @@ A simple HTML & CSS implementation of a QR Code component based on a frontend ch
 Open index.html in a browser or view the live site (if deployed).
 
 ## Live Demo
-[Click here](https://ugokams.github.io/qr-code-comp/)
+[Click here](https://ugokams.github.io/qr-code-component/)
